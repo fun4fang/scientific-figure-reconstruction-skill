@@ -1,0 +1,92 @@
+{
+  "status": "PASS_ONE_ORIGINAL_SYNTHETIC_IMAGE_ONLY",
+  "date": "2026-10-12",
+  "provider": "Authenticated Codex OpenAI",
+  "model": "gpt-5.6-luna",
+  "model_inferences": 2,
+  "automatic_retries": 0,
+  "authoring": "one initial plus one render-supported correction; no manual proposal replacement",
+  "uploaded": "Only original workflow.png pixels and the two initial output renders; no private figure or old Skill",
+  "runtime": [
+    {
+      "slot": "initial",
+      "exit_code": 0,
+      "wall_seconds": 35.33423920001951,
+      "usage": {
+        "input_tokens": 11594,
+        "output_tokens": 1137
+      }
+    },
+    {
+      "slot": "correction",
+      "exit_code": 0,
+      "wall_seconds": 37.11147390000406,
+      "usage": {
+        "input_tokens": 11895,
+        "output_tokens": 2874
+      }
+    }
+  ],
+  "trace_summary": [
+    {
+      "slot": "initial",
+      "tool_events": 0,
+      "configuration_ignored": true,
+      "warnings": [
+        "Codex is ignoring 1 unrecognized configuration setting. Check for typos or deprecated settings.",
+        "Codex is ignoring 1 unrecognized configuration setting. Check for typos or deprecated settings.",
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in [private verification path omitted]"
+      ]
+    },
+    {
+      "slot": "correction",
+      "tool_events": 0,
+      "configuration_ignored": false,
+      "warnings": [
+        "Under-development features enabled: skip_host_skill_discovery. Under-development features are incomplete and may behave unpredictably. To suppress this warning, set `suppress_unstable_features_warning = true` in [private verification path omitted]",
+        "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+      ]
+    }
+  ],
+  "first_attempt_configuration_warning_remediated_before_correction": true,
+  "actual_pptx_editing": {
+    "status": "PASS",
+    "total_shapes": 5,
+    "tolerance_points": 0.1,
+    "office_version": "16.0",
+    "connectors": 2,
+    "actual_reopen_render": true,
+    "native_text_containers": 3,
+    "save_close_reopen_executed": true,
+    "native_text_edit_persisted": true,
+    "text_moves_with_container": true,
+    "no_reconnect": true,
+    "resize_executed": true
+  },
+  "svg_editing": {
+    "status": "PASS_NATIVE_TEXT_GROUP_EDIT_SAVE_REOPEN_RENDER",
+    "native_text_elements": 3,
+    "native_shapes": 3,
+    "edit_mode": "XML native elements, not GUI vector editor",
+    "connector_auto_follow": "NOT_SUPPORTED_STATIC_ONLY",
+    "gui_vector_editor": "NOT_VERIFIED",
+    "renderer": "Microsoft Edge headless SVG",
+    "renderer_version": "154.0.4258.62",
+    "svg_sha256": "4a42b61d81a32dc41a3da218a5079ba0a59d2e8675759038a8a65c08562eb78f",
+    "render_sha256": "c83a5c0546ccd6efc1db52b421cddff17e9259ccdbd9a7fa1890c2a7163f4971"
+  },
+  "human_visual_review": "Three labels/two directed relations retained; outlines corrected; one-pixel size and font/arrow differences remain",
+  "native_text_containers": 3,
+  "attached_pptx_connectors": 2,
+  "raster_regions": 0,
+  "generalization": "NOT_VERIFIED",
+  "adversarial_provider_prompt_injection": "NOT_VERIFIED",
+  "paid_amount": "NOT_KNOWN; account quota/token usage only measured",
+  "artifact_sha256": {
+    "reconstructed.pptx": "afb8a49a3bcd01d78cfc7448e3be84728dacac2d39760a305293a851337e55ec",
+    "reconstructed.svg": "8ad18a8648284327c39af4b3ed75700f98c99c3df425b0828062f642e217e992",
+    "rendered_pptx.png": "2661d9edf57999201458b07da0617bc960a070b3272f425e5fcec7c69f79e07e",
+    "rendered_svg.png": "9a86d96647d18712d278663dc4caf2f35fcf94b48bc2a6c9d0bf5412a57b20ac",
+    "side_by_side.png": "6cf60f4a9aac15091b96882efcec3437fdea32f0892648b7884ea0ce1320e14b"
+  }
+}

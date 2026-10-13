@@ -1,0 +1,235 @@
+{
+  "AI_main_hero": {
+    "scope": "Enhanced candidate experimental AI Hero; owner-authorized CC BY 4.0, not automatic public-core reproduction",
+    "source_sha256": "429a38174b63979409871ebf8216f7720b3440b193eabb339e1b6f112aae26e5",
+    "source_origin": "OpenAI built-in imagegen, exact backend not exposed",
+    "all_hero_and_gif_assets_same_AI_source": true,
+    "input_and_outputs": {
+      "original-ai-image.png": "429a38174b63979409871ebf8216f7720b3440b193eabb339e1b6f112aae26e5",
+      "unverified-draft.pptx": "9e84d1ad28e05074b482736a217eda3a11560af674b32a0405b175cc02850a2f",
+      "unverified-draft.svg": "3b9f4cbe531e846aa32ed2ef356633c2ee66f41b3f169a09069b3bccca826fac",
+      "rendered-pptx.png": "68656e2fb666c81080ed35827479c7ebbd15a3dbc2596498daad4e8e0e112a64",
+      "rendered-svg.png": "44dc6e34cafd1d91d160888a9525f17a22a21cac60dabafd2483b7610dc90882",
+      "verification.json": "fffa4b7b246c7254565b4270ad7a8baf3b622abfb258fa4ede3a70024b32ef38"
+    },
+    "hero": {
+      "path": "assets/showcase/ai-comparison.png",
+      "sha256": "71531efd7feb648ac4d5ab2980826c52cfa6eccd89b497a6475f3819bea4814d",
+      "sources": [
+        {
+          "path": "examples/showcase-ai/original-ai-image.png",
+          "sha256": "429a38174b63979409871ebf8216f7720b3440b193eabb339e1b6f112aae26e5",
+          "original_size": [
+            1536,
+            1024
+          ],
+          "display_size": [
+            810,
+            540
+          ],
+          "display_origin": [
+            15,
+            76
+          ],
+          "crop": "NONE"
+        },
+        {
+          "path": "examples/showcase-ai/rendered-pptx.png",
+          "sha256": "68656e2fb666c81080ed35827479c7ebbd15a3dbc2596498daad4e8e0e112a64",
+          "original_size": [
+            1536,
+            1024
+          ],
+          "display_size": [
+            810,
+            540
+          ],
+          "display_origin": [
+            855,
+            76
+          ],
+          "crop": "NONE"
+        },
+        {
+          "path": "examples/showcase-ai/rendered-svg.png",
+          "sha256": "44dc6e34cafd1d91d160888a9525f17a22a21cac60dabafd2483b7610dc90882",
+          "original_size": [
+            1536,
+            1024
+          ],
+          "display_size": [
+            810,
+            540
+          ],
+          "display_origin": [
+            1695,
+            76
+          ],
+          "crop": "NONE"
+        }
+      ],
+      "full_frames": true,
+      "retouching": false
+    },
+    "gif": {
+      "path": "assets/showcase/ai-office-edit.gif",
+      "sha256": "68a6bcfed7f9aa5daed7fcc1b38a01a47120473b71d7d376a088796b2abab604",
+      "source_export_frames": [
+        {
+          "original_export": "edit-start.png",
+          "sha256": "68656e2fb666c81080ed35827479c7ebbd15a3dbc2596498daad4e8e0e112a64",
+          "caption": "Original reconstruction"
+        },
+        {
+          "original_export": "text-edited.png",
+          "sha256": "12ae23610b9cfdd3f18069a6e5f1669bf1f4e4019c8712aa9216af8d9c1aba6f",
+          "caption": "Edit workflow text"
+        },
+        {
+          "original_export": "nodes-resized.png",
+          "sha256": "b699da8120ec0a992e87afec3cb265568ad36e7133d690d86f7725db3dc62a4a",
+          "caption": "Move and resize nodes"
+        },
+        {
+          "original_export": "branch-moved.png",
+          "sha256": "aeab829face5e7c1a3cab90d53d07f7169530205bc015b803418de6828788a49",
+          "caption": "Move a branch node"
+        },
+        {
+          "original_export": "merge-moved.png",
+          "sha256": "6bf1942a8e53b9b5cac66e97e858e24b4fee6368b900b620bfd283f79f0dc333",
+          "caption": "Move a merge node"
+        },
+        {
+          "original_export": "edited-reopened.png",
+          "sha256": "6bf1942a8e53b9b5cac66e97e858e24b4fee6368b900b620bfd283f79f0dc333",
+          "caption": "Save and reopen"
+        }
+      ],
+      "duration_ms": 8000,
+      "frames": 6,
+      "crop": [
+        20,
+        558,
+        1518,
+        915
+      ],
+      "size": [
+        1100,
+        350
+      ],
+      "bytes": 364293,
+      "type": "Actual PowerPoint export sequence",
+      "ui_screen_recording": false,
+      "interpolated_frames": false,
+      "new_edit_events": false
+    },
+    "prior_program_UAV_media": "UNCHANGED_SECONDARY_EXAMPLE",
+    "diagnostic_status": "UNVERIFIED DRAFT / PARTIAL; unchanged underlying receipt",
+    "model_or_authoring_or_Office_calls": 0,
+    "public_candidate_merge": true,
+    "github_publication": "NOT_AUTHORIZED",
+    "license": "CC-BY-4.0",
+    "attribution": "Fang Zhe (@fun4fang); AI-generated, illustrative"
+  },
+  "legacy_UAV_secondary_example": {
+    "scope": "presentation derivative only; scientific source and render pixels not retouched",
+    "comparison": {
+      "sources": [
+        {
+          "file": "original-reference.png",
+          "sha256": "5dec2756bba355ed4dfca86646c79203dc82e1a47ec13da88ecda250e405b9cb",
+          "original_size": [
+            1400,
+            1020
+          ],
+          "crop": "NONE",
+          "display_size": [
+            810,
+            590
+          ]
+        },
+        {
+          "file": "rendered_pptx.png",
+          "sha256": "e5af018652ff1fb2d9189c7c62812ad5776cf10b57d6c4a6e2616e9621236562",
+          "original_size": [
+            1400,
+            1020
+          ],
+          "crop": "NONE",
+          "display_size": [
+            810,
+            590
+          ]
+        },
+        {
+          "file": "rendered_svg.png",
+          "sha256": "6cb7a3e98a7229892949c4779cef4c5b47976bc107f81e6a6bb85f5402fc409f",
+          "original_size": [
+            1400,
+            1020
+          ],
+          "crop": "NONE",
+          "display_size": [
+            810,
+            590
+          ]
+        }
+      ],
+      "layout": "three full-frame columns with simple external headings",
+      "scientific_labels_and_internal_qualifications": "UNCHANGED",
+      "sha256": "b6c052cc06756c84323aa2417ca7501455a4ceef4303c6caef2b68d633b0df93"
+    },
+    "uav_main_demo": {
+      "type": "Actual PowerPoint export sequence",
+      "source_frames": [
+        {
+          "file": "rendered-pptx.png",
+          "sha256": "e5af018652ff1fb2d9189c7c62812ad5776cf10b57d6c4a6e2616e9621236562",
+          "caption": "Original reconstruction"
+        },
+        {
+          "file": "text-edited.png",
+          "sha256": "1f5b287de16c2b847d09d651dc5c29566e4416e1942de71ae1003814eda84f3a",
+          "caption": "Edit text and resize nodes"
+        },
+        {
+          "file": "branch-moved.png",
+          "sha256": "cf6b0558205a99c199080d1bb3f21b0da77147efdb556169b967a7a8f539c3d2",
+          "caption": "Move a branch node"
+        },
+        {
+          "file": "merge-moved.png",
+          "sha256": "1f5b287de16c2b847d09d651dc5c29566e4416e1942de71ae1003814eda84f3a",
+          "caption": "Move a merge node"
+        },
+        {
+          "file": "edited-reopened.png",
+          "sha256": "1f5b287de16c2b847d09d651dc5c29566e4416e1942de71ae1003814eda84f3a",
+          "caption": "Save and reopen"
+        }
+      ],
+      "duration_ms": 8000,
+      "frames": 5,
+      "source_crop": [
+        35,
+        430,
+        1365,
+        935
+      ],
+      "output_size": [
+        1100,
+        492
+      ],
+      "bytes": 250668,
+      "sha256": "1ff6dff110d9de5ef9d70767f430dd45c9fa59ac70a969f5544f84687ab1fbd3",
+      "ui_recording": false,
+      "interpolated_frames": false
+    },
+    "model_calls": 0,
+    "new_office_edit_events": 0,
+    "retouching_or_visual_error_masking": false,
+    "original_evidence_modified": false,
+    "ai_draft_media": "Historical UAV-only presentation receipt; separate AI Hero now included under CC BY 4.0"
+  }
+}

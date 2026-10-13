@@ -1,0 +1,124 @@
+{
+  "scope": "one original synthetic UAV reference; not AI-generated input, no generalization claim",
+  "status": {
+    "AI_IMAGE_GENERATION": "NOT_RUN",
+    "SOURCE": "ORIGINAL_PROGRAM_GENERATED_PNG_OWNER_AUTHORIZED",
+    "HOST_SKILL_ACTIVATION": "PASS",
+    "HOST_IMAGE_ONLY_AUTHORING": "PASS_INITIAL",
+    "IMAGE_ONLY_RECONSTRUCTION": "PARTIAL",
+    "VISUAL_FIDELITY": "PARTIAL",
+    "PPTX_EDITABILITY": "PASS_BOUNDED_MOVES_AND_RESIZES",
+    "SVG_OUTPUT": "PASS_NATIVE_TEXT_AND_STATIC_RELATIONS",
+    "SCIENTIFIC_SAFETY": "PASS_LIMITED_SOURCE_AND_RENDER_REVIEW",
+    "GITHUB_HERO_ELIGIBILITY": "NOT_READY",
+    "INITIAL_AUTHORING_PHASES": 1,
+    "CORRECTION_ATTEMPTS": 1,
+    "CORRECTION_OUTPUT": "NONE_EXECUTION_STOPPED_AT_600S_BOUNDARY",
+    "BASELINE_183": "UNCHANGED_READY_FOR_OWNER_APPROVAL",
+    "GITHUB_PUBLICATION": "NOT_AUTHORIZED",
+    "PHASE_7_ENTRY_GATE": "FAIL_UNCHANGED",
+    "EXECUTION_STATE": "PAUSED"
+  },
+  "source_sha256": "5dec2756bba355ed4dfca86646c79203dc82e1a47ec13da88ecda250e405b9cb",
+  "normalized_source_sha256": "7ac244463d0be49b69ccc96865d34faa12ad74af1f16c965aa7298b64befc55c",
+  "source_pixels_equal": true,
+  "model": "gpt-6.1-sol",
+  "provider_account": "OpenAI / existing ChatGPT sign-in",
+  "skill_sha256": "2f7bf1e117089398a53f33273f9ea63ab1276d34dd145f5626fb20f4ce8d584c",
+  "actual_skill_body_loaded": true,
+  "fresh_session_without_source_truth": true,
+  "host_zero_extra_read_claim": false,
+  "host_permissions": {
+    "type": "workspaceWrite",
+    "writableRoots": [],
+    "networkAccess": false,
+    "excludeTmpdirEnvVar": false,
+    "excludeSlashTmp": false
+  },
+  "components": 42,
+  "native_workflow_nodes": 10,
+  "attached_pptx_relations": 11,
+  "native_svg_text_elements": 33,
+  "svg_relation_elements": {
+    "line": 3,
+    "polyline": 8
+  },
+  "svg_connectors": "STATIC_ONLY",
+  "svg_xml_text_edit_save_reparse_actual_render": "PASS",
+  "svg_gui_editor": "NOT_VERIFIED",
+  "preserved_regions": [
+    {
+      "id": "survey_schematic",
+      "pixel_exact_source_crop": true,
+      "internal_editability": "RASTER_ONLY",
+      "media_sha256": "eca0716511d6dea578092665301838a61ebfd389bfcaf85f77a821afe8f60048"
+    },
+    {
+      "id": "surface_texture",
+      "pixel_exact_source_crop": true,
+      "internal_editability": "RASTER_ONLY",
+      "media_sha256": "71e83f7191a4319a0360d0f72f0a2ed71a877ba155a44fa6f2336bb74aafedeb"
+    },
+    {
+      "id": "risk_chart",
+      "pixel_exact_source_crop": true,
+      "internal_editability": "RASTER_ONLY",
+      "media_sha256": "91c92c723b996b86e627211258956b9dbb057d721aa83c31f9fc85841f4f382a"
+    }
+  ],
+  "raster_assets_unchanged_after_office_save_reopen": true,
+  "office": "16.0",
+  "native_text_edit_persisted": true,
+  "native_node_geometry_persisted": true,
+  "branch_ids": [
+    "fusion",
+    "quality"
+  ],
+  "merge_ids": [
+    "fusion",
+    "risk"
+  ],
+  "connector_checks": 264,
+  "maximum_endpoint_error_points": 8.392333984375e-05,
+  "no_reconnect": true,
+  "normal_non_elevated_desktop": true,
+  "oversize_first_edit": "Attachment checks passed, but uniform +10pt width caused touching boxes/ambiguous visual arrows; retained privately as visual failure. Bounded independent copy uses +4pt width/+3pt height and was reviewed.",
+  "gif": {
+    "duration_ms": 15000,
+    "frames": [
+      {
+        "path": "editing-frames/rendered-pptx.png",
+        "sha256": "e5af018652ff1fb2d9189c7c62812ad5776cf10b57d6c4a6e2616e9621236562"
+      },
+      {
+        "path": "editing-frames/text-edited.png",
+        "sha256": "1f5b287de16c2b847d09d651dc5c29566e4416e1942de71ae1003814eda84f3a"
+      },
+      {
+        "path": "editing-frames/branch-moved.png",
+        "sha256": "cf6b0558205a99c199080d1bb3f21b0da77147efdb556169b967a7a8f539c3d2"
+      },
+      {
+        "path": "editing-frames/merge-moved.png",
+        "sha256": "1f5b287de16c2b847d09d651dc5c29566e4416e1942de71ae1003814eda84f3a"
+      },
+      {
+        "path": "editing-frames/edited-reopened.png",
+        "sha256": "1f5b287de16c2b847d09d651dc5c29566e4416e1942de71ae1003814eda84f3a"
+      }
+    ],
+    "workflow_zoom": [
+      35,
+      430,
+      1365,
+      935
+    ],
+    "encoding": "captioned actual slide exports; no interpolated frames; no UI-recording claim"
+  },
+  "visual_differences": [
+    "numeric labels large/centered instead of small corner indices",
+    "PPTX divider/border colors differ",
+    "merging-arrow crowding and font/line geometry differences"
+  ],
+  "private_trace_or_Office_save_derivative_shipped": false
+}

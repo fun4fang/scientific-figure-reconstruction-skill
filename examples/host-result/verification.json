@@ -1,0 +1,53 @@
+{
+  "scope": "one owner-authorized original synthetic workflow, Windows only; not generalization",
+  "source": "../workflow.png",
+  "source_sha256": "3e3e85df353d974f9b192e64e7e2e09b617e88c609abeabfb17af3836d0616c4",
+  "skill_activation": "PASS_REAL_LOADED_CONTEXT",
+  "authoring": "PASS_IMAGE_ONLY_ONE_INITIAL_PHASE",
+  "host": "codex-cli/app-server 0.162.0-alpha.17.2",
+  "model": "gpt-6.1-sol",
+  "provider": "OpenAI / existing ChatGPT sign-in",
+  "historical_answers_in_test_workspace": false,
+  "manual_proposal_completion": false,
+  "correction_phases": 0,
+  "host_sandbox": "workspace-write; command network disabled; approvals on-request; unchanged",
+  "host_zero_extra_read_claim": false,
+  "sandbox_office_com": "FAILED_80070520_NO_BYPASS",
+  "trusted_desktop": "PASS_NORMAL_NON_ELEVATED_WINDOWS_SESSION",
+  "office": "16.0",
+  "native_label_containers": 3,
+  "pptx_connectors": 2,
+  "raster_regions": 0,
+  "native_text_edit_save_reopen": true,
+  "all_three_container_move_resize_text_coherent": true,
+  "both_connector_endpoints_after_each_move_resize_save_reopen": true,
+  "maximum_endpoint_error_points": 7.874015864217654e-05,
+  "no_connector_reconnect": true,
+  "actual_pptx_svg_renders": "PASS",
+  "scientific_source_render_review": "PASS",
+  "labels": [
+    "Acquire",
+    "Validate",
+    "Report"
+  ],
+  "relations": [
+    "Acquire -> Validate",
+    "Validate -> Report"
+  ],
+  "visible_omission_duplicate_occlusion": false,
+  "visual_differences": "minor font metrics and border/arrow geometry",
+  "svg_connectors": "STATIC_ONLY",
+  "svg_gui_editing": "NOT_VERIFIED",
+  "desktop_ui_skill_selector": "NOT_VERIFIED",
+  "desktop_bridge_extra_model_calls": 0,
+  "independent_api_calls": 0,
+  "github_publication": "NOT_AUTHORIZED",
+  "files": {
+    "reconstructed.pptx": "44745b6f0d033690a87bb337825b2f563c38dbf5f1be44fee4a9fabf380ee00f",
+    "reconstructed.svg": "beed97163a787b900f47ec72c5fa0d2dce2787a5a166a823bd80874e01d22f1d",
+    "rendered_pptx.png": "9ddcdfd85b3cb3892084ff5588f566fb0972f5510d14745725c40b86f6ec0fcc",
+    "rendered_svg.png": "b4b5c33c04a7a11a254a7869fbc5035e342c9cc8ed7c534cfdf2a41905179870",
+    "side_by_side_pptx.png": "3d31c52048162744676f78004ffb8093b0c99a37d8cef4a4cb4c2ae0c1938e1a",
+    "side_by_side_svg.png": "3ae66f3c672870e59d101f0a6a369d92fca9f6590e1542a02fd71895f230c72c"
+  }
+}

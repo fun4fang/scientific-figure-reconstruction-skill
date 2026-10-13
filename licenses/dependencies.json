@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Pillow",
+    "version": "12.3.0",
+    "declared_license": "MIT-CMU",
+    "purpose": "RUNTIME",
+    "full_license_files": [
+      {
+        "path": "licenses/dependencies/Pillow/pillow-12.3.0.dist-info/licenses/LICENSE",
+        "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+      }
+    ]
+  },
+  {
+    "name": "numpy",
+    "version": "2.5.3",
+    "declared_license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+    "purpose": "RUNTIME",
+    "full_license_files": [
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/LICENSE.txt",
+        "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+        "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+        "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+        "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+        "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+        "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+        "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+        "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+        "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/ma/LICENSE",
+        "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/LICENSE.md",
+        "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+        "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+        "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+        "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+        "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+        "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy-2.5.3.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+        "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy/_core/include/numpy/random/LICENSE.txt",
+        "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy/ma/LICENSE",
+        "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+      },
+      {
+        "path": "licenses/dependencies/numpy/numpy/random/LICENSE.md",
+        "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+      }
+    ]
+  },
+  {
+    "name": "jsonschema",
+    "version": "4.26.0",
+    "declared_license": "MIT",
+    "purpose": "RUNTIME",
+    "full_license_files": [
+      {
+        "path": "licenses/dependencies/jsonschema/jsonschema-4.26.0.dist-info/licenses/COPYING",
+        "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439"
+      }
+    ]
+  },
+  {
+    "name": "attrs",
+    "version": "26.1.0",
+    "declared_license": "MIT",
+    "purpose": "RUNTIME",
+    "full_license_files": [
+      {
+        "path": "licenses/dependencies/attrs/attrs-26.1.0.dist-info/licenses/LICENSE",
+        "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f"
+      }
+    ]
+  },
+  {
+    "name": "jsonschema-specifications",
+    "version": "2025.9.1",
+    "declared_license": "MIT",
+    "purpose": "RUNTIME",
+    "full_license_files": [
+      {
+        "path": "licenses/dependencies/jsonschema-specifications/jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING",
+        "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c"
+      }
+    ]
+  },
+  {
+    "name": "referencing",
+    "version": "0.37.0",
+    "declared_license": "MIT",
+    "purpose": "RUNTIME",
+    "full_license_files": [
+      {
+        "path": "licenses/dependencies/referencing/referencing-0.37.0.dist-info/licenses/COPYING",
+        "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c"
+      }
+    ]
+  },
+  {
+    "name": "rpds-py",
+    "version": "2026.6.3",
+    "declared_license": "MIT",
+    "purpose": "RUNTIME",
+    "full_license_files": [
+      {
+        "path": "licenses/dependencies/rpds-py/rpds_py-2026.6.3.dist-info/licenses/LICENSE",
+        "sha256": "8bcb72c82ea8ae74802293c41d93ad7d51434001b0ae45a603a5af0f507aee0a"
+      }
+    ]
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "declared_license": "PSF-2.0",
+    "purpose": "RUNTIME",
+    "full_license_files": [
+      {
+        "path": "licenses/dependencies/typing_extensions/typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+        "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+      }
+    ]
+  },
+  {
+    "name": "setuptools",
+    "version": "84.0.0",
+    "declared_license": "MIT",
+    "purpose": "BUILD_ONLY",
+    "full_license_files": [
+      {
+        "path": "licenses/dependencies/setuptools/setuptools-84.0.0.dist-info/licenses/LICENSE",
+        "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+        "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+        "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+        "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+        "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+        "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+        "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+        "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE",
+        "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.APACHE",
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.BSD",
+        "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+        "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+        "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+        "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+        "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/config/NOTICE",
+        "sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8"
+      },
+      {
+        "path": "licenses/dependencies/setuptools/setuptools/config/_validate_pyproject/NOTICE",
+        "sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7"
+      }
+    ]
+  }
+]

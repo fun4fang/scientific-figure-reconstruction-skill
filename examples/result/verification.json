@@ -1,0 +1,38 @@
+{
+  "status": "PASS_SCOPED_LOCAL_VERIFICATION",
+  "date": "2026-10-12",
+  "project_license": "MIT",
+  "copyright": "2026 Fang Zhe",
+  "runtime": "Windows x86-64 CPython 3.12.14",
+  "model_calls": 0,
+  "image_only_authoring": "NOT_VERIFIED",
+  "installed_cli_png_and_jpeg": "PASS",
+  "actual_powerpoint_version": "16.0",
+  "actual_pptx_editing": {
+    "native_text_containers": 3,
+    "connectors": 2,
+    "text_moves_with_container": true,
+    "native_text_edit_persisted": true,
+    "resize_executed": true,
+    "no_reconnect": true,
+    "save_close_reopen_executed": true,
+    "actual_reopen_render": true,
+    "tolerance_points": 0.1
+  },
+  "svg_edit_mode": "XML native elements, not GUI vector editor",
+  "svg_edit_save_reopen_render": "PASS",
+  "svg_connector_auto_follow": "NOT_SUPPORTED_STATIC_ONLY",
+  "gui_vector_editor": "NOT_VERIFIED",
+  "input_is_original_synthetic": true,
+  "proposal_is_hand_specified": true,
+  "fail_closed_cases": 7,
+  "resource_limits": "Windows 2GiB child job created during actual entry runs; 600s default deadline",
+  "core_compatibility": "Canonical, PPTX, SVG and actual render bytes identical to baseline for one synthetic fixture",
+  "known_advisory_query": "9 locked packages; no OSV matches on 2026-10-12; bundled native coverage not guaranteed",
+  "artifact_sha256": {
+    "reconstructed.pptx": "9f0fb695eb047bdd57edb4a336c31629bae9858dc614f13676a10c6538aedd1c",
+    "reconstructed.svg": "1f0c1f83bc9fe073a8e655e8206b7c86e02b0d19b7ba763fed0b9ce3e745c8e7",
+    "rendered_pptx.png": "490f6086e35b4ec754c9bdf5d2dda3df7221b94c7414b6c938f72ce3913f3823",
+    "rendered_svg.png": "d44c9d4bfbab397a97942ef6a2a76581e843b068c162a5d0cd5e1081aae84f2d"
+  }
+}

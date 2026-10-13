@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" id="uf-figure-visual-reauthoring-f3836d0616c4" viewBox="0 0 600 260" width="600" height="260" data-canonical-figure-id="visual-reauthoring-f3836d0616c4" data-adapter-config-hash="sha256:8f2cb79634a3d8ef208df0408389b9c3e6d159c5f0683e102e4ba409f78ac881">
+  <defs>
+    <marker id="uf-arrow-triangle" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="3" markerHeight="3" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke" />
+    </marker>
+  </defs>
+  <g id="uf-semantic-groups" data-layer="semantic-groups" />
+  <g id="uf-components" data-layer="components">
+    <g id="uf-component-acquire" data-canonical-id="acquire" data-representation="NATIVE_TEXT" data-semantic-role="workflow step" data-realization-id="svg-realization-0000-b0846657a5" x="100.0" y="132.0" font-family="Arial" font-size="22.0000" fill="#193653" text-anchor="middle" dominant-baseline="middle" data-text-fit="PASS" data-text-rotation="0" font-weight="normal">
+      <rect fill="#eaf2f8" stroke="#193653" stroke-width="2" data-label-container="rect" x="20" y="90" width="161" height="81" />
+      <text id="uf-component-acquire-block-0" x="100.0" y="132.0" font-family="Arial" font-size="22" fill="#193653" text-anchor="middle" dominant-baseline="middle" font-weight="normal">
+        <tspan x="100.0" y="132.0">Acquire</tspan>
+      </text>
+    </g>
+    <g id="uf-component-report" data-canonical-id="report" data-representation="NATIVE_TEXT" data-semantic-role="workflow step" data-realization-id="svg-realization-0001-19e4c829c8" x="500.5" y="132.0" font-family="Arial" font-size="22.0000" fill="#193653" text-anchor="middle" dominant-baseline="middle" data-text-fit="PASS" data-text-rotation="0" font-weight="normal">
+      <rect fill="#eaf2f8" stroke="#193653" stroke-width="2" data-label-container="rect" x="420" y="90" width="161" height="81" />
+      <text id="uf-component-report-block-0" x="500.5" y="132.0" font-family="Arial" font-size="22" fill="#193653" text-anchor="middle" dominant-baseline="middle" font-weight="normal">
+        <tspan x="500.5" y="132.0">Report</tspan>
+      </text>
+    </g>
+    <g id="uf-component-validate" data-canonical-id="validate" data-representation="NATIVE_TEXT" data-semantic-role="workflow step" data-realization-id="svg-realization-0002-674ec9a194" x="300.5" y="132.0" font-family="Arial" font-size="22.0000" fill="#193653" text-anchor="middle" dominant-baseline="middle" data-text-fit="PASS" data-text-rotation="0" font-weight="normal">
+      <rect fill="#eaf2f8" stroke="#193653" stroke-width="2" data-label-container="rect" x="220" y="90" width="161" height="81" />
+      <text id="uf-component-validate-block-0" x="300.5" y="132.0" font-family="Arial" font-size="22" fill="#193653" text-anchor="middle" dominant-baseline="middle" font-weight="normal">
+        <tspan x="300.5" y="132.0">Validate</tspan>
+      </text>
+    </g>
+  </g>
+  <g id="uf-relations" data-layer="relations">
+    <line id="uf-relation-acquire-to-validate" data-canonical-id="acquire-to-validate" data-realization-id="svg-relation-realization-0000-21ceaec332" data-representation="NATIVE_RELATION" data-source-id="acquire" data-target-id="validate" data-direction="SOURCE_TO_TARGET" data-relation-type="FLOW" data-route-type="STRAIGHT" data-route-source="CANONICAL_ROUTE_POINTS" stroke="#193653" stroke-width="2.0" fill="none" data-source-site="right_center" data-target-site="left_center" data-source-endpoint-status="VALID_NATIVE_ENDPOINT" data-target-endpoint-status="VALID_NATIVE_ENDPOINT" data-attachment-behavior="STATIC_ONLY" marker-end="url(#uf-arrow-triangle)" x1="181.0" y1="130.5" x2="220.0" y2="130.5" />
+    <line id="uf-relation-validate-to-report" data-canonical-id="validate-to-report" data-realization-id="svg-relation-realization-0001-e0a14bf330" data-representation="NATIVE_RELATION" data-source-id="validate" data-target-id="report" data-direction="SOURCE_TO_TARGET" data-relation-type="FLOW" data-route-type="STRAIGHT" data-route-source="CANONICAL_ROUTE_POINTS" stroke="#193653" stroke-width="2.0" fill="none" data-source-site="right_center" data-target-site="left_center" data-source-endpoint-status="VALID_NATIVE_ENDPOINT" data-target-endpoint-status="VALID_NATIVE_ENDPOINT" data-attachment-behavior="STATIC_ONLY" marker-end="url(#uf-arrow-triangle)" x1="381.0" y1="130.5" x2="420.0" y2="130.5" />
+  </g>
+  <g id="uf-coherent-source-preservation" data-layer="coherent-source-preservation" />
+  <g id="uf-generated-asset-overlays" data-layer="generated-asset-overlays" />
+  <g id="uf-verified-native-labels" />
+</svg>

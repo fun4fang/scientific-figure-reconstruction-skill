@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unified-scientific-figure"
+version = "0.1.0.dev0"
+description = "Research preview of bounded editable scientific workflow reconstruction"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "MIT"
+license-files = ["LICENSE", "licenses/*", "NOTICE.md"]
+authors = [{name = "Fang Zhe"}]
+dependencies = ["Pillow==12.3.0", "numpy==2.5.3", "jsonschema==4.26.0"]
+
+[project.scripts]
+ufigure = "unified_figure.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"unified_figure.adapters.pptx" = ["blank_office_v16.pptx"]

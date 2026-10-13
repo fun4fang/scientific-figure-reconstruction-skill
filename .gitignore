@@ -1,0 +1,12 @@
+.venv/
+*.egg-info/
+__pycache__/
+*.py[cod]
+build/
+dist/
+runs/
+.env
+.env.*
+*.log
+node_modules/
+.codex/

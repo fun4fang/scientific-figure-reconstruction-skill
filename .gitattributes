@@ -1,0 +1,14 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.lock text eol=lf
+*.ps1 text eol=crlf
+*.png binary
+*.jpg binary
+*.pptx binary
+
+# Preserve the reviewed release bytes on Git checkin/checkout.
+# End-of-line normalization must not change FILE_MANIFEST SHA-256 values.
+* -text

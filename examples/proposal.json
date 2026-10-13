@@ -1,0 +1,158 @@
+{
+  "version": "visual-reauthoring-v0.1",
+  "width": 600,
+  "height": 260,
+  "background": "#FFFFFF",
+  "nodes": [
+    {
+      "id": "acquire",
+      "kind": "rectangle",
+      "bbox": {
+        "x": 20,
+        "y": 90,
+        "width": 160,
+        "height": 80
+      },
+      "text_bbox": {
+        "x": 30,
+        "y": 110,
+        "width": 140,
+        "height": 40
+      },
+      "content": "Acquire",
+      "role": "node-label",
+      "parent": null,
+      "style": {
+        "font_family": "Arial",
+        "font_size_px": 22,
+        "font_weight": "normal",
+        "text_color": "#16324F",
+        "alignment": "center",
+        "fill": "#EAF2F8",
+        "stroke": "#16324F",
+        "stroke_width_px": 2
+      },
+      "confidence": "HIGH",
+      "evidence": "Original program-generated demo geometry"
+    },
+    {
+      "id": "validate",
+      "kind": "rectangle",
+      "bbox": {
+        "x": 220,
+        "y": 90,
+        "width": 160,
+        "height": 80
+      },
+      "text_bbox": {
+        "x": 230,
+        "y": 110,
+        "width": 140,
+        "height": 40
+      },
+      "content": "Validate",
+      "role": "node-label",
+      "parent": null,
+      "style": {
+        "font_family": "Arial",
+        "font_size_px": 22,
+        "font_weight": "normal",
+        "text_color": "#16324F",
+        "alignment": "center",
+        "fill": "#EAF2F8",
+        "stroke": "#16324F",
+        "stroke_width_px": 2
+      },
+      "confidence": "HIGH",
+      "evidence": "Original program-generated demo geometry"
+    },
+    {
+      "id": "report",
+      "kind": "rectangle",
+      "bbox": {
+        "x": 420,
+        "y": 90,
+        "width": 160,
+        "height": 80
+      },
+      "text_bbox": {
+        "x": 430,
+        "y": 110,
+        "width": 140,
+        "height": 40
+      },
+      "content": "Report",
+      "role": "node-label",
+      "parent": null,
+      "style": {
+        "font_family": "Arial",
+        "font_size_px": 22,
+        "font_weight": "normal",
+        "text_color": "#16324F",
+        "alignment": "center",
+        "fill": "#EAF2F8",
+        "stroke": "#16324F",
+        "stroke_width_px": 2
+      },
+      "confidence": "HIGH",
+      "evidence": "Original program-generated demo geometry"
+    }
+  ],
+  "connectors": [
+    {
+      "id": "flow-1",
+      "source": "acquire",
+      "target": "validate",
+      "source_site": "right_center",
+      "target_site": "left_center",
+      "routing": "straight",
+      "points": [
+        {
+          "x": 180,
+          "y": 130
+        },
+        {
+          "x": 220,
+          "y": 130
+        }
+      ],
+      "stroke": "#16324F",
+      "stroke_width_px": 2,
+      "confidence": "HIGH",
+      "evidence": "Original synthetic directed relation"
+    },
+    {
+      "id": "flow-2",
+      "source": "validate",
+      "target": "report",
+      "source_site": "right_center",
+      "target_site": "left_center",
+      "routing": "straight",
+      "points": [
+        {
+          "x": 380,
+          "y": 130
+        },
+        {
+          "x": 420,
+          "y": 130
+        }
+      ],
+      "stroke": "#16324F",
+      "stroke_width_px": 2,
+      "confidence": "HIGH",
+      "evidence": "Original synthetic directed relation"
+    }
+  ],
+  "preserve_regions": [],
+  "uncertainties": [],
+  "content_inventory": [
+    "Acquire",
+    "Validate",
+    "Report",
+    "Acquire to Validate",
+    "Validate to Report"
+  ],
+  "all_visible_content_accounted_for": true,
+  "review_notes": "Hand-specified synthetic fixture; no vision model or generalization result"
+}
